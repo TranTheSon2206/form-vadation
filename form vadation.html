@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form vadation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b6ae48a323.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="images/images/logo.svg" alt="">
+            </div>
+            <div class="image"></div>
+            <div class="text">
+                Start for free or<br/>
+                attractive offers today !
+            </div>
+        </div>
+        <form action="#" id="form">
+           <div>
+            <div class="social">
+                <div class="title">Get Started</div>
+                <div class="question">
+                    Already have an acount?<br/>
+                    <span>Sign in</span>
+                </div>
+                <div class="btn">
+                    <div class="btn-1">
+                        <img src="https://img.icons8.com/fluency/48/000000/google-logo.png"/>
+                        Sign up
+                    </div>
+                    <div class="btn-2">
+                        <img src="https://img.icons8.com/color/48/000000/facebook-new.png"/>
+                        Sign up
+                    </div>
+                </div>
+            </div>
+            <div class="or">Or</div>
+           </div>
+            <!--Username input-->
+            <div>
+                <label for="Username">Username</label>
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="Username" placeholder="James bond" id="username">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <!--Email input-->
+            <div>
+                <label for="email">Email</label>
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" name="email" placeholder="abc@gmail.com" id="email">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <!--Password input-->
+            <div>
+                <label for="password">Password</label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="text" name="password" placeholder="password" id="password">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <button id="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="mainjs.js"></script>
+</body>
+</html>
